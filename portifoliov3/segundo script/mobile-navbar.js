@@ -57,7 +57,7 @@ class DarkMode {
 
     handleClick() {
         console.log(this.icon.src);
-       if(this.icon.src == "portifoliov3/imagens/sun.png"){
+       if(this.icon.src == "imagens/sun.png"){
             this.icon.src = "imagens/moon.png";
             this.ChangeToDark();
         }else{
