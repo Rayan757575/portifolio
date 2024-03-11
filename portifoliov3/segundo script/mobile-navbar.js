@@ -57,13 +57,11 @@ class DarkMode {
 
     handleClick() {
         console.log(this.icon.src);
-       if(this.icon.src == "/imagens/sun.png"){
+       if(this.icon.src == "https://rayancp.vercel.app/imagens/sun.png"){
             this.icon.src = "imagens/moon.png";
             this.ChangeToDark();
         }else{
-               console.log(this.icon.src);
             this.icon.src = "imagens/sun.png";
-            console.log(this.icon.src);
             this.ChangeToLight();
         }
     }
