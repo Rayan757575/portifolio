@@ -61,7 +61,7 @@ class DarkMode {
             this.icon.src = "imagens/moon.png";
             this.ChangeToDark();
         }else{
-            this.icon.src = "imagens/sun.png";
+            this.icon.src = "imagens/moon.png";
             this.ChangeToLight();
         }
     }
