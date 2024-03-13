@@ -248,6 +248,16 @@ figcaption{
         transform: translateX(0);
     }
 }
+@keyframes IconAnimation {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+    }
+}
 
 i:hover {
     transform: scale(1.2);
@@ -256,8 +266,7 @@ i:hover {
 }
 
 .icon:hover {
-    transform: rotate(720deg);
-    transition: transform 2s ease-in-out forwards;
+    animation: IconAnimation 2s ease-in-out forwards
 }
 
 li a:hover {
