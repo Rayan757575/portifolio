@@ -256,7 +256,7 @@ i:hover {
 }
 
 .icon:hover {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
     transition: transform 2s ease-in-out;
 }
 
