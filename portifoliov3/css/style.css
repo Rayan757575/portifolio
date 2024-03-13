@@ -257,7 +257,7 @@ i:hover {
 
 .icon:hover {
     transform: rotate(720deg);
-    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out forwards;
 }
 
 li a:hover {
