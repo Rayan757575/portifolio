@@ -266,7 +266,7 @@ i:hover {
 }
 
 .icon:hover {
-    animation: IconAnimation 2s ease-in-out forwards
+    animation: IconAnimation 2s ease-in-out forwards;
 }
 
 li a:hover {
