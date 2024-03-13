@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Inter, "sans-serif";
     color: var(--text-color);
-    transition: 0.7s;
+    transition: 1s ease-in;
 }
 
 :root {
