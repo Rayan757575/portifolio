@@ -8,7 +8,7 @@
 
 :root {
     --background-menu: rgb(253, 253, 253);
-    --background-main: white;
+    --background-main: #f6f8fa;
     --text-color: black;
     --span-color: rgb(10, 99, 244);
     --border-menu-color: rgb(123, 123, 123);
