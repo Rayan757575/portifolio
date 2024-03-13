@@ -46,7 +46,7 @@ class DarkMode {
         document.body.style.setProperty('--border-menu-color', 'white');
     }
     ChangeToLight(){
-        document.body.style.setProperty('--background-main', ' white');
+        document.body.style.setProperty('--background-main', ' #f6f8fa');
         document.body.style.setProperty('--background-menu', ' rgb(253, 253, 253)'); 
         document.body.style.setProperty('--text-color', ' black');
         document.body.style.setProperty('--span-color', 'rgb(10, 99, 244)');
