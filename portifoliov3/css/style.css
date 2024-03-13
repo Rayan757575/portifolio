@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Inter, "sans-serif";
     color: var(--text-color);
-    transition: 0.7s ease;
+    transition: 0.7s ease-in-out;
 }
 
 :root {
@@ -257,7 +257,7 @@ i:hover {
 
 .icon:hover {
     transform: rotate(360deg);
-    transition: transform 2s ease-out;
+    transition: transform 2s ease-in-out;
 }
 
 li a:hover {
