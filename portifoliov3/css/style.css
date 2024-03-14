@@ -12,7 +12,7 @@
     --text-color: black;
     --span-color: rgb(10, 99, 244);
     --border-menu-color: rgb(123, 123, 123);
-    --link-source-color: rgb(10, 99, 244);
+    --link-source-color: var(--span-color);
 }
 
 html {
