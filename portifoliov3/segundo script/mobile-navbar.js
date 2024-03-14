@@ -51,7 +51,7 @@ class DarkMode {
         document.body.style.setProperty('--background-menu', '#f6f8fa'); 
         document.body.style.setProperty('--text-color', ' black');
         document.body.style.setProperty('--span-color', 'rgb(10, 99, 244)');
-                 document.body.style.setProperty('--link-source-color', 'rgb(10, 99, 244)');
+        document.body.style.setProperty('--link-source-color', 'rgb(10, 99, 244)');
         document.body.style.setProperty('--border-menu-color', 'rgb(123, 123, 123)');
     }
 
