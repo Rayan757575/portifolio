@@ -149,7 +149,7 @@ figcaption {
 }
 
 /*controle de responsividade para dispositivos menores*/
-@media(max-width: 1025px) {
+@media(max-width: 1115px) {
 
     h1 {
         margin: 0 0 4vmin;
@@ -158,15 +158,11 @@ figcaption {
     article>p {
         margin: 4vmin 0 0;
     }
-}
-
-@media(max-width: 900px) {
 
     .minha-foto {
         height: 250px;
         width: 250px;
     }
-
 }
 
 @media (max-width: 769px) {
