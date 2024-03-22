@@ -165,6 +165,18 @@ figcaption {
     }
 }
 
+@media(max-width: 900px) {
+
+    main {
+        padding: 12vmin 14vmin;
+    }
+
+    .nav {
+        width: 72vw;
+    }
+}
+
+
 @media (max-width: 769px) {
 
     main {
