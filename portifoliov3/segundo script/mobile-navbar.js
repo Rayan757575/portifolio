@@ -40,7 +40,7 @@ class DarkMode {
 
     ChangeToDark(){
         document.body.style.setProperty('--background-main', '#121212');
-        document.body.style.setProperty('--background-menu', '#010409');
+        document.body.style.setProperty('--background-menu', '#03081087');
         document.body.style.setProperty('--text-color', 'rgb(253, 249, 249)');
         document.body.style.setProperty('--span-color', '#007FFF');
         document.body.style.setProperty('--link-source-color', '#4493f8');
