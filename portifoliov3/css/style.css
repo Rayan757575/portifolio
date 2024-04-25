@@ -58,11 +58,6 @@ span {
     color: var(--span-color);
 }
 
-figcaption {
-    display: flex;
-    flex-direction: column;
-}
-
 /*IDs*/
 #sobre {
     display: inline-flex;
