@@ -266,6 +266,6 @@ i:hover {
 }
 
 li a:hover {
-    opacity: 0.5;
-    transition: opacity 0.2s;
+    color: #A000FF;
+    transition: color 0.2s;
 }
