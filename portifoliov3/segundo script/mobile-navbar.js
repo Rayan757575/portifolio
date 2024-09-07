@@ -49,12 +49,12 @@ class DarkMode {
         document.body.style.setProperty('--background-main', ' #white');
         document.body.style.setProperty('--background-menu', '#f6f8fa'); 
         document.body.style.setProperty('--text-color', ' black');
-        document.body.style.setProperty('--span-color', 'rgb(10, 99, 244)');
-        document.body.style.setProperty('--link-source-color', 'rgb(10, 99, 244)');
+        document.body.style.setProperty('--span-color', 'rgb(160, 0, 255)');
+        document.body.style.setProperty('--link-source-color', 'rgb(160, 0, 255)');
     }
 
     handleClick() {
-       if(this.icon.src == "https://rayancp.vercel.app/imagens/sun.png"){
+       if(this.icon.src == "../imagens/sun.png"){
             this.icon.src = "imagens/moon.png";
             this.ChangeToDark();
         }else{
