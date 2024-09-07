@@ -266,6 +266,6 @@ i:hover {
 }
 
 li a:hover {
-    color: #A000FF;
+    color: var(--link-source-color);
     transition: color 0.2s;
 }
