@@ -42,8 +42,8 @@ class DarkMode {
         document.body.style.setProperty('--background-main', '#171717');
         document.body.style.setProperty('--background-menu', '#121212');
         document.body.style.setProperty('--text-color', 'rgb(253, 249, 249)');
-        document.body.style.setProperty('--span-color', '#4493f8');
-        document.body.style.setProperty('--link-source-color', '#4493f8');
+        document.body.style.setProperty('--span-color', 'rgb(209 91 226)');
+        document.body.style.setProperty('--link-source-color', 'rgb(209 91 226)');
     }
     ChangeToLight(){
         document.body.style.setProperty('--background-main', ' #white');
