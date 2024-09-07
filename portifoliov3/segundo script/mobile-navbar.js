@@ -54,7 +54,7 @@ class DarkMode {
     }
 
     handleClick() {
-       if(this.icon.src == "../imagens/sun.png"){
+       if(this.icon.src == "https://rayancp.vercel.app/imagens/sun.png"){
             this.icon.src = "imagens/moon.png";
             this.ChangeToDark();
         }else{
