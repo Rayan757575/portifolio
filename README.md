@@ -1,17 +1,17 @@
 # Portifólio
-##📌 Meu Portfólio de Desenvolvedor
+## 📌 Meu Portfólio de Desenvolvedor
 
 Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos e experiências como desenvolvedor de software. Sinta-se à vontade para explorar e entrar em contato caso queira trocar ideias ou colaborar em projetos. 🚀
 
-##🔗 Acesse o Portfólio
+## 🔗 Acesse o Portfólio
 
-🔗 Meu Portfólio Online (Substitua pelo link real)
+🔗  [Portifólio](https://rayancp.vercel.app)
 
-##📂 Sobre o Projeto
+## 📂 Sobre o Projeto
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações de contato de forma organizada e profissional.
 
-##📌 Funcionalidades
+## 📌 Funcionalidades
 
 Exibição dos meus projetos com descrição e links
 
@@ -23,9 +23,8 @@ Currículo
 
 Formulário de contato para conexões profissionais
 
-##📬 Contato
+## 📬 Contato
 
-📧 Email: rayancatapretastl@gmail.com 💼 LinkedIn: Meu LinkedIn (Substitua pelo seu perfil)
-
+📧 Email: rayancatapretastl@gmail.com 💼 LinkedIn: [Rayan Cata Preta](https://www.linkedin.com/in/rayan-cata-preta-765ab9251).
 Se gostou do projeto, deixe uma ⭐ no repositório! Obrigado por visitar! 😊
 
