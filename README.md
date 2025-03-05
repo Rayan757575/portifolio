@@ -26,5 +26,6 @@ Formulário de contato para conexões profissionais
 ## 📬 Contato
 
 📧 Email: rayancatapretastl@gmail.com 💼 LinkedIn: [Rayan Cata Preta](https://www.linkedin.com/in/rayan-cata-preta-765ab9251).
+
 Se gostou do projeto, deixe uma ⭐ no repositório! Obrigado por visitar! 😊
 
