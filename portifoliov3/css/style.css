@@ -19,11 +19,6 @@ html {
     scroll-behavior: smooth;
 }
 
-li a {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 a {
     color: var(--link-source-color);
 }
@@ -59,6 +54,12 @@ span {
 }
 
 /*IDs*/
+
+#icon {
+    margin: 8px;
+    cursor: pointer;
+} 
+
 #sobre {
     display: inline-flex;
     justify-content: space-between;
@@ -79,6 +80,11 @@ span {
     width: 100vw;
     background-color: var(--background-menu);
     position: fixed;
+}
+
+.menu-item {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .nav {
@@ -110,11 +116,6 @@ span {
     background-color: var(--text-color);
     margin: 8px;
     transition: 0.7s;
-}
-
-#icon {
-    margin: 8px;
-    cursor: pointer;
 }
 
 .minha-foto {
@@ -260,12 +261,12 @@ a i:hover {
     color: var(--span-color);
 }
 
+.menu-item:hover {
+    color: var(--link-source-color);
+    transition: color 0.2s ease-in-out;
+}
+
 #icon:hover {
     transform: rotate(720deg);
     transition: transform 2s ease-in-out;
-}
-
-li a:hover {
-    color: var(--link-source-color);
-    transition: color 0.2s ease-in-out;
 }
