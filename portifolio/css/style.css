@@ -9,7 +9,7 @@
 :root {
     --background-menu: #f6f8fa;
     --background-main: white;
-    --text-color: white;
+    --text-color: black;
     --span-color: rgb(160, 0, 255);
     --border-menu-color: rgb(123, 123, 123);
     --link-source-color: rgb(160, 0, 255);
