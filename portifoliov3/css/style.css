@@ -112,7 +112,7 @@ span {
     transition: 0.7s;
 }
 
-.icon {
+#icon {
     margin: 8px;
     cursor: pointer;
 }
@@ -254,18 +254,18 @@ span {
     }
 }
 
-i:hover {
+a i:hover {
     transform: scale(1.2);
     transition: transform 0.1s;
     color: var(--span-color);
 }
 
-.icon:hover {
+#icon:hover {
     transform: rotate(720deg);
     transition: transform 2s ease-in-out;
 }
 
 li a:hover {
     color: var(--link-source-color);
-    transition: color 0.2s;
+    transition: color 0.2s ease-in-out;
 }
