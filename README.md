@@ -27,7 +27,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 
 ## 📬 Contato
 
-📧 Email: rayancatapretastl@gmail.com 💼 LinkedIn: [Rayan Cata Preta](https://www.linkedin.com/in/rayan-cata-preta-765ab9251).
+📧 Email: rayancatapretastl@gmail.com 💼 LinkedIn: [Rayan Cata Preta](https://www.linkedin.com/in/rayan-cata-preta).
 
 Se gostou do projeto, deixe uma ⭐ no repositório! Obrigado por visitar! 😊
 
