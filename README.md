@@ -13,17 +13,17 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 
 ## 📌 Funcionalidades
 
-- Responsividade para dispositivos móveis (utilizando a metodologia "mobile-first")
+- Responsividade para dispositivos móveis (utilizando a metodologia "mobile-first");
 
-- Dark/light mode
+- Dark/light mode;
 
-- Exibição dos meus projetos com descrição e links
+- Exibição dos meus projetos com descrição e links;
 
-- Seção sobre mim e minhas habilidades
+- Seção sobre mim;
 
-- Currículo
+- Currículo;
 
-- Formulário de contato para conexões profissionais
+- Barra de contatos para conexões profissionais.
 
 ## 📬 Contato
 
