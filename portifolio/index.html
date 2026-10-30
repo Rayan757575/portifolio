@@ -4,93 +4,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayan Cata Preta</title>
+    <title>Rayan Cata Preta | Desenvolvedor Backend & IA Conversacional</title>
+    <meta name="description"
+        content="Portfólio de Rayan de Andrade Cata Preta — Desenvolvedor de Software com foco em Backend (Java, Spring, Node.js, Python) e soluções de IA Conversacional, Chatbots e LLMs.">
+    <meta property="og:title" content="Rayan Cata Preta | Desenvolvedor Backend & IA Conversacional">
+    <meta property="og:description"
+        content="Arquitetura Backend, APIs REST, Microsserviços, IA Conversacional e Desenvolvimento Mobile.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rayancp.vercel.app">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/imagens/scroll-solid.svg">
+
+    <script src="assets/js/mobile-navbar.js" defer></script>
+    <script src="assets/js/dark_mode.js" defer></script>
+    <script src="https://kit.fontawesome.com/35a3055cc9.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
     <header class="menu">
-        <nav class="nav">
-            <i id="icon" class="fa-regular fa-sun fa-2xl"></i>
-            <div class="mobile-menu"><!--icone de menu para dispositivos menores-->
+        <nav class="nav" aria-label="Navegação principal">
+            <button id="theme-toggle" class="icon-btn" type="button" aria-label="Ativar modo escuro">
+                <i id="icon" class="fa-regular fa-sun fa-2xl" aria-hidden="true"></i>
+            </button>
+
+            <button class="mobile-menu" type="button" aria-label="Abrir menu de navegação" aria-expanded="false">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
+            </button>
 
-                <li><a class="menu-item" href="#inicio">Home</a></li>
-                <li><a class="menu-item" href="#projetos">Projects</a></li>
+            <ul class="nav-list">
+                <li><a class="menu-item" href="#inicio">Início</a></li>
+                <li><a class="menu-item" href="#experiencia">Experiência</a></li>
+                <li><a class="menu-item" href="#projetos">Projetos</a></li>
                 <li><a class="menu-item" href="assets/curriculo/curriculo.pdf"
-                        download="assets/curriculo/curriculo.pdf">Curriculum</a></li>
-                <li><a class="menu-item" href="#contato">Contact</a></li>
+                        download="Curriculo_Rayan_Cata_Preta.pdf">Currículo</a></li>
+                <li><a class="menu-item" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
+
     <main id="inicio">
         <section id="sobre">
             <article>
-                <h1>Hi, I'm a <span>Software Developer</span></h1>
+                <h1>Olá, sou Rayan — Desenvolvedor de Software com foco em <span>Backend</span> &amp; <span>IA
+                        Conversacional</span></h1>
                 <p>
-                    My name is Rayan de Andrade Cata Preta, a Software Developer from Brazil.
-                </p>
-                <p> I have experience, developing softwares, with <span>Java</span>, <span>Spring
-                        Boot</span>, <span>Node.js</span>, and <span>React (Next.js)</span>. My skills also extends
-                    to <span>C++</span> and <span>PHP</span>.
+                    Sou Rayan de Andrade Cata Preta, desenvolvedor de software graduando no Bacharelado em
+                    <span>Ciência da Computação</span> e em <span>Ciências Exatas</span> pela Universidade Federal de
+                    Juiz de Fora (<span>UFJF</span>), com formação técnica em Informática pelo
+                    <span>IFSULDEMINAS</span>.
                 </p>
                 <p>
-                    Currently, I am dedicating my studies and projects to specialize in <span>Backend
-                        Development</span>.
+                    Construo arquiteturas de backend, APIs REST e microsserviços utilizando <span>Java (Spring
+                        Framework)</span>, <span>Node.js</span>, <span>JavaScript</span>, <span>Python</span>,
+                    <span>C++</span> e <span>PHP</span>, estruturando persistência de dados com
+                    <span>PostgreSQL</span>, <span>MySQL</span> e <span>MariaDB</span>, além de ambientes em
+                    <span>Docker</span> e testes unitários.
+                </p>
+                <p>
+                    Como diferencial técnico, desenvolvo soluções de <span>IA Conversacional, Chatbots e integração com
+                        LLMs</span> voltadas para automação inteligente de processos e interação fluida entre usuários e
+                    sistemas, aliadas à entrega de interfaces web e mobile com <span>Angular 19</span>, <span>Ionic
+                        8</span> e <span>React (Next.js)</span>.
                 </p>
 
+                <div class="badges-wrapper">
+                    <p class="badges-title">Stack Principal &amp; Ferramentas</p>
+                    <ul class="badges-list" aria-label="Tecnologias que utilizo">
+                        <li class="badge">Java &amp; Spring</li>
+                        <li class="badge">JavaScript &amp; Node.js</li>
+                        <li class="badge">Python</li>
+                        <li class="badge">IA Conversacional &amp; LLMs</li>
+                        <li class="badge">Chatbots</li>
+                        <li class="badge">Sydle One</li>
+                        <li class="badge">APIs REST &amp; Microsserviços</li>
+                        <li class="badge">Angular 19 &amp; Ionic 8</li>
+                        <li class="badge">React &amp; Next.js</li>
+                        <li class="badge">PostgreSQL &amp; MySQL</li>
+                        <li class="badge">Docker &amp; Testes Unitários</li>
+                    </ul>
+                </div>
             </article>
-            <figcaption>
-                <img src="assets/imagens/photo.jpg" class="minha-foto" alt="Foto do desenvolvedor" width="300px"
-                    height="300px">
-            </figcaption>
+
+            <figure class="foto-container">
+                <img src="assets/imagens/photo.jpg" class="minha-foto" alt="Foto de Rayan de Andrade Cata Preta"
+                    width="300" height="300">
+            </figure>
         </section>
+
+        <section id="experiencia">
+            <h2>Experiência &amp; Pesquisa</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <div>
+                        <h3>Engenheiro de Software Trainee</h3>
+                        <p class="card-meta">Levty | 04/2026 – Atualmente</p>
+                        <p>
+                            Atuação na engenharia e desenvolvimento de soluções web e automação de processos utilizando
+                            boas práticas de versionamento e metodologias ágeis.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Stack:</span> JavaScript, Sydle One, IA Conversacional, Chatbots, LLMs, APIs REST,
+                        Postman, Git, Trello e Jira.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Desenvolvedor Mobile (Iniciação Científica)</h3>
+                        <p class="card-meta">Projeto LIMA — UFJF | 11/2025 – Atualmente</p>
+                        <p>
+                            Desenvolvimento e manutenção de aplicação móvel híbrida com foco em UX para trabalho de
+                            campo, eliminando a necessidade de internet para coleta e processamento imediato de métricas
+                            fenotípicas foliares (área e perímetro).
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Stack:</span> Ionic 8, Angular 19 (Standalone Components), Arquitetura Offline-First e UX.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Desenvolvedor de Software &amp; Membro</h3>
+                        <p class="card-meta">Grêmio Estudantil — IFSULDEMINAS | 03/2023 – 12/2024</p>
+                        <p>
+                            Levantamento de requisitos junto a alunos e instituição e desenvolvimento de ferramentas
+                            digitais para otimizar fluxos de informação, cronogramas e organização de eventos.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Foco:</span> Engenharia de Requisitos, Sistemas Web e Automação de Processos.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Estagiário de TI e Suporte Técnico</h3>
+                        <p class="card-meta">Prefeitura de São Tomé das Letras | 07/2023 – 01/2024</p>
+                        <p>
+                            Suporte técnico aos setores administrativo e educacional, instalação e manutenção de
+                            hardware e software, gerenciamento de redes de computadores e gestão documental.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Foco:</span> Redes, Infraestrutura de TI, Protocolos Públicos e Google Workspace.
+                    </p>
+                </article>
+            </div>
+        </section>
+
         <section id="projetos">
-            <article>
-                <h1>Projects</h1>
-                <p>My Github repositories:</p>
-                <p>Giveaway app: [<a href="https://github.com/Rayan757575/Sorteio" target="_blank">source</a>]</p>
-                <p>Synonymous: [<a href="https://github.com/Rayan757575/sinonimos" target="_blank">source</a>]</p>
-                <p>Notepad: [<a href="https://github.com/Rayan757575/Notepad" target="_blank">source</a>]</p>
-                <p>Guessing Hungman Game: [<a href="https://github.com/Rayan757575/GuessingGame_Hangman"
-                        target="_blank">source</a>]</p>
-            </article>
+            <h2>Projetos &amp; Reconhecimentos</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <div>
+                        <h3>LIMA (Leaf Image Mobile Analysis)</h3>
+                        <p class="card-meta">Aplicação Mobile Híbrida &amp; Pesquisa Tecnológica</p>
+                        <p>
+                            Solução móvel offline-first projetada para análise de imagens foliares e cálculo em tempo
+                            real de área e perímetro diretamente no campo.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Tecnologias:</span> Ionic 8 &amp; Angular 19
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Sorteio (Giveaway App)</h3>
+                        <p class="card-meta">Aplicação Web</p>
+                        <p>
+                            Ferramenta prática para realização automatizada de sorteios e gerenciamento rápido de
+                            participantes.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        [<a href="https://github.com/Rayan757575/Sorteio" target="_blank"
+                            rel="noopener noreferrer">Repositório no GitHub</a>]
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Sinônimos (Synonymous)</h3>
+                        <p class="card-meta">Aplicação de Consulta</p>
+                        <p>
+                            Sistema para busca e consulta estruturada de sinônimos e vocabulário.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        [<a href="https://github.com/Rayan757575/sinonimos" target="_blank"
+                            rel="noopener noreferrer">Repositório no GitHub</a>]
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Notepad &amp; Guessing Hangman Game</h3>
+                        <p class="card-meta">Aplicações Desktop / Lógica de Programação</p>
+                        <p>
+                            Bloco de notas digital leve para edição de textos e implementação clássica do jogo da forca.
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        [<a href="https://github.com/Rayan757575/Notepad" target="_blank"
+                            rel="noopener noreferrer">Notepad</a>] &bull;
+                        [<a href="https://github.com/Rayan757575/GuessingGame_Hangman" target="_blank"
+                            rel="noopener noreferrer">Hangman Game</a>]
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Premiações &amp; Certificações</h3>
+                        <p class="card-meta">Olimpíadas Científicas &amp; Formação Complementar</p>
+                        <p>
+                            Medalhista na <span>OBICT 2024</span> (Bronze), <span>OIMSF 2022</span> (Prata) e
+                            <span>OBMEP 2021</span> (Bronze). Certificado em Acessibilidade Digital <span>eMAG
+                                (ENAP)</span>, <span>POO com Java (DIO)</span> e Administração de Bancos de Dados
+                            (Fundação Bradesco).
+                        </p>
+                    </div>
+                    <p class="card-footer">
+                        <span>Idiomas:</span> Português (Nativo) &bull; Inglês Avançado (Wizard)
+                    </p>
+                </article>
+            </div>
         </section>
+
         <section id="contato">
             <article>
-                <h1>Contact me</h1>
-                <p><a href="assets/curriculo/curriculo.pdf" download="assets/curriculo/curriculo.pdf">Download my
-                        curriculum</a></p>
+                <h2>Contato</h2>
+                <p>
+                    Aberto a conexões profissionais, projetos e oportunidades em Engenharia de Software. Você também
+                    pode
+                    <a href="assets/curriculo/curriculo.pdf" download="Curriculo_Rayan_Cata_Preta.pdf">baixar meu
+                        currículo completo em PDF</a>.
+                </p>
             </article>
+
             <div class="icones-contato">
-                <a href="https://www.instagram.com/rayan_catapreta/" target="_blank" aria-label="Acesse meu Instagram">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
+                <a href="https://www.instagram.com/rayan_catapreta/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Acesse meu Instagram">
+                    <i class="fa-brands fa-instagram fa-xl" aria-hidden="true"></i>
                 </a>
-                <a href="mailto:rayancatapretastl@gmail.com" target="_blank" aria-label="Envie me um Email">
-                    <i class="fa-solid fa-envelope fa-xl"></i>
+                <a href="mailto:rayancatapretastl@gmail.com" aria-label="Envie-me um e-mail">
+                    <i class="fa-solid fa-envelope fa-xl" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/Rayan757575" target="_blank" aria-label="Acesse meu Github">
-                    <i class="fa-brands fa-github fa-xl"></i>
+                <a href="https://github.com/Rayan757575" target="_blank" rel="noopener noreferrer"
+                    aria-label="Acesse meu GitHub">
+                    <i class="fa-brands fa-github fa-xl" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/rayan-cata-preta-765ab9251/" target="_blank"
-                    aria-label="Acesse meu Linkedin">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    rel="noopener noreferrer" aria-label="Acesse meu LinkedIn">
+                    <i class="fa-brands fa-linkedin fa-xl" aria-hidden="true"></i>
                 </a>
             </div>
         </section>
     </main>
+
     <hr>
+
     <footer id="rodape">
-        <p>&copy Desv. Rayan Cata Preta - all rights reserved</p>
+        <p>&copy; 2026 Rayan Cata Preta — Todos os direitos reservados.</p>
     </footer>
 </body>
-<script src="assets/js/mobile-navbar.js"></script>
-<script src="assets/js/dark_mode.js"></script>
-<script src="https://kit.fontawesome.com/35a3055cc9.js" crossorigin="anonymous"></script>
 
 </html>
