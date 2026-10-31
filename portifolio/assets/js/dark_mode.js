@@ -21,6 +21,7 @@ class DarkMode {
                 "aria-label",
                 isDark ? "Ativar modo claro" : "Ativar modo escuro"
             );
+            this.button.setAttribute("aria-pressed", String(isDark));
         }
     }
 
